@@ -19,6 +19,7 @@ import ExpenseRow from '../components/ExpenseRow';
 import BalanceRow from '../components/BalanceRow';
 import ItineraryItem from '../components/ItineraryItem';
 import ItineraryDayGroup from '../components/ItineraryDayGroup';
+import Login from '../components/Login';
 
 export default function DesignSystem() {
   return (
@@ -221,6 +222,14 @@ export default function DesignSystem() {
           ]}
         />
       </Stack>
+
+      {/* LOGIN FORM */}
+      <Typography variant="h5" sx={{ mb: 2 }}>
+        Login Form
+      </Typography>
+      <Box sx={{ maxWidth: 420, mb: 4 }}>
+        <Login />
+      </Box>
     </Box>
   );
 }
