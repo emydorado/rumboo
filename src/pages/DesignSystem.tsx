@@ -27,13 +27,15 @@ export default function DesignSystem() {
         Design System
       </Typography>
       {/* BUTTONS */}
+
       <Typography variant="h5" sx={{ mb: 2 }}>
         Buttons
       </Typography>
       <Stack direction="row" spacing={2} sx={{ mb: 4 }}>
-        <RumbooButton variant="contained">Primary</RumbooButton>
-        <RumbooButton variant="outlined">Secondary</RumbooButton>
+        <RumbooButton variant="contained">Crear viaje</RumbooButton>
+        <RumbooButton variant="text">Ver cómo funciona</RumbooButton>
       </Stack>
+
       {/* INPUTS */}
       <Typography variant="h5" sx={{ mb: 2 }}>
         Inputs
