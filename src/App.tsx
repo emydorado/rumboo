@@ -1,5 +1,7 @@
+import DesignSystem from './pages/DesignSystem';
+
 function App() {
-  return <h1>Rumboo 🚀</h1>;
+  return <DesignSystem />;
 }
 
 export default App;

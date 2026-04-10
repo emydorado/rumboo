@@ -1,0 +1,108 @@
+
+:root {
+  /* ── Bright Orange ── */
+  --color-orange-50:  #ffefe6;
+  --color-orange-100: #ffccb1;
+  --color-orange-200: #ffb48c;
+  --color-orange-300: #ff9157;
+  --color-orange-400: #ff7c36;
+  --color-orange-500: #ff5b04;   /* PRIMARY */
+  --color-orange-600: #e85304;
+  --color-orange-700: #b54103;
+  --color-orange-800: #8c3202;
+  --color-orange-900: #6b2602;
+
+  /* ── Aqua Green ── */
+  --color-aqua-50:  #e6eeee;
+  --color-aqua-100: #b2c9cb;
+  --color-aqua-200: #8dafb1;
+  --color-aqua-300: #598a8e;
+  --color-aqua-400: #397378;
+  --color-aqua-500: #075056;   /* SECONDARY */
+  --color-aqua-600: #06494e;
+  --color-aqua-700: #05393d;
+  --color-aqua-800: #042c2f;
+  --color-aqua-900: #032224;
+
+  /* ── Aqua Grey ── */
+  --color-grey-50:  #e9eaeb;
+  --color-grey-100: #bbbfc1;
+  --color-grey-200: #9aa0a3;
+  --color-grey-300: #6c747a;
+  --color-grey-400: #4f5960;
+  --color-grey-500: #233038;   /* DARK */
+  --color-grey-600: #202c33;
+  --color-grey-700: #192228;
+  --color-grey-800: #131a1f;
+  --color-grey-900: #0f1418;
+
+  /* ── Cloud Grey ── */
+  --color-cloud-50:  #fbfcfc;
+  --color-cloud-100: #f1f4f5;
+  --color-cloud-200: #ebeff0;
+  --color-cloud-300: #e2e8e9;
+  --color-cloud-400: #dce4e5;
+  --color-cloud-500: #d3ddde;
+  --color-cloud-600: #c0c9ca;
+  --color-cloud-700: #969d9e;
+  --color-cloud-800: #747a7a;
+  --color-cloud-900: #595d5d;
+
+  /* ── Semánticos ── */
+  --color-primary:        var(--color-orange-500);
+  --color-primary-hover:  var(--color-orange-600);
+  --color-primary-light:  var(--color-orange-100);
+  --color-secondary:      var(--color-aqua-500);
+  --color-secondary-hover:var(--color-aqua-600);
+  --color-dark:           var(--color-grey-500);
+  --color-surface:        var(--color-cloud-100);
+  --color-background:     var(--color-cloud-50);
+  --color-border:         var(--color-cloud-400);
+  --color-text-primary:   var(--color-grey-500);
+  --color-text-secondary: var(--color-grey-400);
+  --color-text-disabled:  var(--color-cloud-700);
+  --color-white:          #ffffff;
+
+  /* ── Tipografía ── */
+  --font-display: 'Plus Jakarta Sans', sans-serif;
+  --font-body:    'Plus Jakarta Sans', sans-serif;
+
+  --text-xs:   0.75rem;    /* 12px */
+  --text-sm:   0.875rem;   /* 14px */
+  --text-base: 1rem;       /* 16px */
+  --text-lg:   1.125rem;   /* 18px */
+  --text-xl:   1.25rem;    /* 20px */
+  --text-2xl:  1.5rem;     /* 24px */
+  --text-3xl:  1.875rem;   /* 30px */
+  --text-4xl:  2.25rem;    /* 36px */
+
+  --font-regular:   400;
+  --font-medium:    500;
+  --font-semibold:  600;
+  --font-bold:      700;
+
+  /* ── Espaciado ── */
+  --space-1:  0.25rem;
+  --space-2:  0.5rem;
+  --space-3:  0.75rem;
+  --space-4:  1rem;
+  --space-5:  1.25rem;
+  --space-6:  1.5rem;
+  --space-8:  2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+
+  /* ── Border radius ── */
+  --radius-sm:   6px;
+  --radius-md:   12px;
+  --radius-lg:   16px;
+  --radius-xl:   24px;
+  --radius-full: 9999px;
+
+  /* ── Sombras ── */
+  --shadow-sm: 0 1px 3px rgba(7, 80, 86, 0.08);
+  --shadow-md: 0 4px 16px rgba(7, 80, 86, 0.12);
+  --shadow-lg: 0 8px 32px rgba(7, 80, 86, 0.16);
+  --shadow-card: 0 2px 12px rgba(35, 48, 56, 0.10);
+}
